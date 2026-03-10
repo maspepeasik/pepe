@@ -1,0 +1,39 @@
+dns-waf-detect:cloudflare] [dns] [info] yovela-trading.com
+[INF] Using Interactsh Server: oast.live
+[waf-detect:cloudflare] [http] [info] https://yovela-trading.com
+[deprecated-tls:tls_1.1] [ssl] [info] yovela-trading.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] yovela-trading.com:443 ["tls10"]
+[tls-version] [ssl] [info] yovela-trading.com:443 ["tls10"]
+[tls-version] [ssl] [info] yovela-trading.com:443 ["tls11"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] yovela-trading.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]                                          
+[weak-cipher-suites:tls-1.1] [ssl] [low] yovela-trading.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]                                          
+[tls-version] [ssl] [info] yovela-trading.com:443 ["tls12"]
+[tls-version] [ssl] [info] yovela-trading.com:443 ["tls13"]
+[tech-detect:next.js] [http] [info] https://yovela-trading.com
+[tech-detect:cloudflare] [http] [info] https://yovela-trading.com                                                                                           
+[robots-txt-endpoint] [http] [info] https://yovela-trading.com/robots.txt                                                                                   
+[http-missing-security-headers:clear-site-data] [http] [info] https://yovela-                                                                               trading.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://yovela-trading.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://yovela-trading.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://yovela-trading.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://yovela-trading.com                                                                                                                               
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["true"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["2026-03-09T09:19:02Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["2026-03-09T09:24:37Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["2027-03-09T09:19:02Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/yovela-trading.com ["JOURNEY.NS.CLOUDFLARE.COM","KIRK.NS.CLOUDFLARE.COM"]
+[google-floc-disabled] [http] [info] https://yovela-trading.com
+[robots-txt] [http] [info] https://yovela-trading.com/robots.txt
+[dmarc-detect] [dns] [info] _dmarc.yovela-trading.com [""v=DMARC1; p=none; pct=100; fo=1; ri=3600; rua=mailto:de470faa@dmarc.mailgun.org,mailto:1c096f6c@i                                                                               nbox.ondmarc.com,mailto:rua@dmarc.brevo.com; ruf=mailto:de470faa@dmarc.mailgu                                                                               n.org,mailto:1c096f6c@inbox.ondmarc.com;""]                                                                                                                 
+[dnssec-detection] [dns] [info] yovela-trading.com
+[mx-fingerprint] [dns] [info] yovela-trading.com ["20 mail2.clouddonut.com."]
+[aaaa-fingerprint] [dns] [info] yovela-trading.com ["2606:4700:3037::ac43:ab75","2606:4700:3036::6815:1d6c"]                                                                                                                             
+[ssl-issuer] [ssl] [info] yovela-trading.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] yovela-trading.com:443 ["*.yovela-trading.com","yovela-trading.com"]                                                                                                                                        
+[wildcard-tls] [ssl] [info] yovela-trading.com:443 ["CN: yovela-trading.com","SAN: [*.yovela-trading.com yovela-trading.com]"]                                                                                                           
+[nameserver-fingerprint] [dns] [info] yovela-trading.com ["journey.ns.cloudflare.com.","kirk.ns.cloudflare.com."]                                                                                                                        
+[caa-fingerprint] [dns] [info] yovela-trading.com
+[spf-record-detect] [dns] [info] yovela-trading.com ["v=spf1 include:mailgun.org include:spf.efwd.registrar-servers.com ~all""]                                                                                                          
+[txt-fingerprint] [dns] [info] yovela-trading.com [""v=spf1 include:mailgun.org include:spf.efwd.registrar-servers.com ~all"",""brevo-code:b0bcde2d1a8e4b8                                                                               15790d870a257c00e""]                                                                                                                                        
+[INF] Scan completed in 6m. 37 matches found.
